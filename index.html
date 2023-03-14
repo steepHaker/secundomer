@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Секундомер</title>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="coontainer">
+        <div class="timer">
+            <div class="timer__block">
+                <div class="time hourse">00</div>
+                <div class="title">Часы</div>
+            </div>
+
+            <div class="timer__block">
+                <div class="time minuts">00</div>
+                <div class="title">Минуты</div>
+            </div>
+
+            <div class="timer__block">
+                <div class="time seconds">00</div>
+                <div class="title">Секунды</div>
+            </div>
+
+            <div class="timer__block">
+                <div class="time millisecond">00</div>
+                <div class="title">Миллисекунды</div>
+            </div>
+
+        </div>
+
+        <div class="buttons">
+            <button class="button start">Старт</button>
+            <button class="button pause">Пауза</button>
+            <button class="button stop">Сброс</button>
+            <button class="button recording">Круг</button>
+        
+    </div>
+
+    <div class="results__block">
+        <div class="results__title">Результаты</div>
+        <div class="results"></div>
+    </div>
+
+    <script src="./script/main.js"></script>
+</body>
+</html>
