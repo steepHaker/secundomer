@@ -1,0 +1,88 @@
+* {
+  font-family: "Azeret Mono", monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4a1330;
+}
+
+.coontainer {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.timer__block {
+  width: 150px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.timer__block .time {
+  background-color: #2987be;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 150px;
+  font-size: 95px;
+}
+.timer__block .title {
+  background-color: #1059b8;
+  padding: 5px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.buttons .button {
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  width: 180px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  padding: 10px;
+}
+.buttons .button.start, .buttons .button.stop, .buttons .button.recording {
+  color: #2987be;
+}
+.buttons .button.start:hover, .buttons .button.stop:hover, .buttons .button.recording:hover {
+  background-color: #1059b8;
+  color: white;
+}
+.buttons .button.pause {
+  color: #1059b8;
+}
+.buttons .button.pause:hover {
+  background-color: #e03b8b;
+  color: white;
+}
+
+.results__block {
+  position: absolute;
+  left: 15px;
+  bottom: 0;
+  width: 350px;
+  background-color: #0e7476;
+  font-size: 18px;
+  padding: 15px;
+  color: #ffffff;
+}/*# sourceMappingURL=main.css.map */
